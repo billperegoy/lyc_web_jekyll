@@ -1,0 +1,375 @@
+/* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+// For some reason I need this dummy class or the next class does not work
+.dummy {
+}
+
+A:link {
+  text-decoration: none;
+  color: #235b71;
+}
+A:visited {
+  text-decoration: none;
+}
+A:active {
+  text-decoration: none;
+}
+A:hover {
+  color: #929743;
+}
+.headerblock {
+  background-color : #fffde9;
+}
+
+h1.logo {
+  float: left;
+  margin: 10px 0 0 0;
+}
+
+h1.logo a {
+  width: 334px;
+  height: 180px;
+  display: block;
+  background: url(../img/lyc_web_logo.png) no-repeat 0 0;
+
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}
+.whitestripe {
+  background-color : #ffffff;
+  height : 5px;
+}
+.greenstripe {
+  background-color : #929743;
+  height : 7px;
+}
+.brownstripe {
+  background-color : #726844;
+  height : 9px;
+}
+.topstripe {
+  background-color : #a0cf67;
+  height : 9px;
+}
+.botstripe {
+  background-color : #000892;
+  height : 9px;
+}
+.headline {
+  font-family: 'Oleo Script', cursive;
+  font-size: 40pt;
+  line-height: 46pt;
+  color : #a0cf67;
+  margin: 28px 0 30px 0;
+}
+.subhead {
+  font-family: 'Oleo Script', cursive;
+  font-size: 20pt;
+  line-height: 2s2046pt;
+  color : #000892;
+  margin: 10px 0 30px 0;
+}
+.leftheadtext {
+  color:  #000892;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 18pt;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 5px 0 ;
+}
+.leftbodytext {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13pt;
+  line-height: 18pt;
+}
+.leftcontentarea {
+  border-right-style: dashed;
+  border-right-width: 2px;
+  border-color: #246478;
+  padding: 0 20px 0 0;
+}
+
+.maincontent {
+  padding: 0 20px 0 15px;
+}
+
+.centerheader {
+  background-color: #7fb3c8;
+  color: #ffffff;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 18pt;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 3px 15px 3px 15px;
+}
+  
+.maincontentbody {
+  font-family: georgia, palatino, serif;
+  font-size: 13pt;
+  line-height: 20pt;
+  color: #6d6e71;
+  padding: 0 0 0 15px;
+}
+
+.todaysclasses {
+  border: 6px solid #7fb3c8;
+  border-radius: 15px;
+  box-shadow: 3px -3px 0 0 #636463;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  background-color: #fffde9;
+}
+
+.tcheader {
+  background-color: #7fb3c8;
+  padding: 0 0 2px 3px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #6d6e71; 
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.socialmedia {
+  border: 6px solid #000892;
+  border-radius: 15px;
+  box-shadow: 3px -3px 0 0 #636463;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  background-color: #fffde9;
+}
+
+.smheader {
+  background-color: #000892;
+  padding: 0 0 2px 3px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #6d6e71; 
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+
+.mailinglist {
+  border: 6px solid #e89d3d;
+  border-radius: 15px;
+  box-shadow: 3px -3px 0 0 #636463;
+  background-color: #fffde9;
+}
+
+.mlheader {
+  background-color: #e89d3d;
+  padding: 0 0 2px 3px;
+  text-shadow: 1px 1px #6d6e71; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mailinglist2 {
+  border: 6px solid #7fb3c8;
+  border-radius: 15px;
+  box-shadow: 3px -3px 0 0 #636463;
+  background-color: #fffde9;
+}
+
+.mlheader2 {
+  background-color: #7fb3c8;
+  padding: 0 0 2px 3px;
+  text-shadow: 1px 1px #6d6e71; 
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mlcontent {
+  padding: 0 0 0 15px;
+}
+
+.smcontent {
+  padding: 0 0 0 15px;
+}
+
+.tccontent {
+  padding: 10px 0 0 15px;
+}
+
+
+/*
+   Main menu formatting
+*/
+
+nav.primarynav {
+  margin: 160px 0 0 100px;
+}
+
+nav.primarynav ul li a {
+  display: inline-block;
+  padding:  0 14px;
+  text-decoration: none;
+  color: #000892;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+}
+
+nav.primarynav ul li {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 18px; 
+  display: inline;
+  float: left;
+  position: relative;
+}
+
+
+
+nav.primarynav ul li:hover ul {
+  height: auto;
+  overflow: auto;
+}
+
+
+
+nav.primarynav ul li a:hover {
+  color: #7fb3c8;
+  cursor: pointer;
+}
+
+
+.indicates-required {
+  font-size: 8pt;
+}
+
+#mce-EMAIL, #mce-ZIPCODE {
+  width: 170px;
+}
+#mc_embed_signup {
+  margin: 10px 0 0 0 ;
+}
+
+.mc-field-group label {
+  font-size: 10pt;
+  font-weight: normal;
+}
+
+#mc-embedded-subscribe-form {
+  margin: 0 0 0 0;
+}
+
+.contact {
+  float: right;
+  color:  #2f4f4f;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 11pt;
+  text-align: right;
+  margin: 30px 0 0 0;
+}
+
+.schedtable table, th, td {
+  border: 1px solid black;
+}
+
+.schedtable th, td {
+  padding: 0 5px 0 5px;
+}
+.schedhead {
+  background: #fffde9;
+   font-weight: bold;
+}
+.sunday, .tuesday, .thursday, .saturday {
+  background: #a0cf67;
+}
+
+.monday, .wednesday, .friday {
+  background: #7fb3c8;
+}
+
+.rate_header {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13pt;
+  color: #000892;
+  padding: 0 0 0 0;
+}
+
+.rate_body {
+  padding: 0 0 10px 0;
+}
+
+.rate_type {
+  padding: 0 0 10px 0;
+}
+
+.rate_descriptions {
+  padding: 20px 0 0 0;
+}
+
+table.rate_table,th,td {
+  border: none;
+  padding: 0 0 0 0;
+  width: 400px;
+}
+
+.page_header {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16pt;
+  color: #000892;
+  padding: 0 0 0 0;
+}
+
+.page_body_text {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13pt;
+  padding: 0 0 0 0;
+}
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

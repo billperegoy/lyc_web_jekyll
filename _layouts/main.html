@@ -1,0 +1,32 @@
+{% include header.html %}
+{% include headline.html %}
+
+  <div class = "band maincontentarea">
+    <div class="container">
+      <div class="four columns">
+        <div class="leftcontentarea">
+          <h2 class="leftheadtext">
+            {{ site.left_header }} 
+          </h2>
+          <div class="leftbodytext">
+            {{ site.left_text }} 
+          </div>
+        </div>
+      </div>
+
+      <div class="eight columns">
+        <div class="maincontent">
+          <div class="maincontentheader">
+            <h2 class="centerheader">
+              {{ page.content_header }} 
+            </h2>
+          </div>
+          <div class="maincontentbody">
+            main content body goes here
+            {{ content }}
+          </div>
+        </div>
+      </div>
+
+{% include right_side.html %}
+
