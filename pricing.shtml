@@ -1,0 +1,44 @@
+---
+layout: page 
+title: Pricing 
+---
+<p>Our number one goal at Lawrence Yoga Collective is to make yoga accessible to everyone. Given that, all classes are offered on a pay as you can, donation basis. We do provide three suggested levels. For all payment level, we accept cash, checks or credit cards. </p>
+
+<div class="page_header">Summer Special</div>
+<p>We are running a summer special for unlimited yoga all summer long for just $150. We know it&#8217;s harder to get into the studio during the busy summer days, so we want to make it as inexpensive and easy as possible to keep your practice going. You can pay in person at the studio or buy online using the form at bottom of this page.</p>
+
+<p>Payment levels are described below.</p>
+
+<div class="page_header">Single Class</div>
+<div class="rate_type">
+<table class="rate_table">
+<tr><td>Base Rate</td><td>$12</td></tr></div>
+<tr><td>Pay It Forward Rate</td><td>$17</td></tr></div>
+<tr><td>Donation Rate</td><td>Pay What You Can</td></tr></div>
+</table>
+</div>
+
+<div class="page_header">Ten Classes</div>
+<div class="rate_type">
+<table class="rate_table">
+<tr><td>Base Rate</td><td>$100</td></tr>
+<tr><td>Pay it Forward Rate</td><td>$130</td></tr>
+</table>
+</div>
+
+<div class="page_header">Monthly Unlimited</div>
+<div class="rate_type">
+<table class="rate_table">
+<tr><td>Base Rate</td><td>$80</td></tr>
+<tr><td>Pay it Forward Rate</td><td>$100</td></tr>
+</table>
+</div>
+
+<div class="rate_descriptions">
+<div class="rate_header">Base Rate</div>
+<div class="rate_body">This is a basic rate that covers the price of your yoga class</div>
+<div class="rate_header">Pay It Forward Rate</div><div class="rate_body">This rate allows you to also support  another student who cannot afford these rates</div>
+<div class="rate_header">Donation Rate</div><div class="rate_body">If you can&#8217;t afford either of these rates, pay what you can.</div>
+</div>
+<p><br></p><div class="page_header">Pay Online</div>
+<iframe width="308" height="750" src="https://lawrenceyoga.tulasoftware.com/external_form" frameborder="0" allowfullscreen><p></iframe></p>
