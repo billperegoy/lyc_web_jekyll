@@ -1,8 +1,8 @@
-Redirect 301 /index.php/site/home        http://www.wellness-scorecard.com/index.shtml
-Redirect 301 /index.php/site/schedule    http://www.wellness-scorecard.com/schedule.shtml
-Redirect 301 /index.php/pricing          http://www.wellness-scorecard.com/pricing.shtml
-Redirect 301 /index.php/about            http://www.wellness-scorecard.com/about.shtml
-Redirect 301 /index.php/faq              http://www.wellness-scorecard.com/faq.shtml
-Redirect 301 /index.php/contact          http://www.wellness-scorecard.com/contact.shtml
+Redirect 301 /index.php/site/home        http://lawrenceyoga.com/index.shtml
+Redirect 301 /index.php/site/schedule    http://lawrenceyoga.com/schedule.shtml
+Redirect 301 /index.php/pricing          http://lawrenceyoga.com/pricing.shtml
+Redirect 301 /index.php/about            http://lawrenceyoga.com/about.shtml
+Redirect 301 /index.php/faq              http://lawrenceyoga.com/faq.shtml
+Redirect 301 /index.php/contact          http://lawrenceyoga.com/contact.shtml
 
 
