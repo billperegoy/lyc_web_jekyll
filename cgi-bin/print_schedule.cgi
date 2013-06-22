@@ -17,8 +17,8 @@ def print_schedule_header
 end
 
 def print_schedule_footer
-  puts "<\div>"
-  puts "<\table>"
+  puts "</table>"
+  puts "</div>"
 end
 
 
