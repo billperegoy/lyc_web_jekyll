@@ -7,4 +7,5 @@ build:
 
 push:
 	rsync -rp _site/* peregoy@lawrenceyoga.com:/home/peregoy/lawrenceyoga.com
+	rsync -p _site/.htaccess peregoy@lawrenceyoga.com:/home/peregoy/lawrenceyoga.com
 
