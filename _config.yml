@@ -5,7 +5,7 @@ description: Lawrence Yoga Collective is a donation-based yoga stdio in Lawrence
 url: http://localhost:4000
 
 left_header: news
-left_text: Look for the latest studio news here
+left_text: <p>Four week beginner's workshop series starts 7/31. Click <a href="https://www.facebook.com/events/536395473094472">here</a> for details. 
 
 paginate: 10
 
