@@ -18,7 +18,7 @@ daily_classes = classes[day_str]
 puts "Content-type: text/html\n\n"
 
 daily_classes.each do |cl|
-  puts "#{cl['time']}"
+  puts "#{cl['time']}<br/>"
 end
 
 
