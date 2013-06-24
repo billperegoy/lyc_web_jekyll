@@ -5,6 +5,7 @@ task :all => [:build, :push]
 task :build => [:run_jekyll, :fix_posts]
 
 task :run_jekyll do
+  puts "Running jekyll"
   sh 'jekyll build'
   sh 'chmod +x _site/cgi-bin/*.cgi'
 end
@@ -18,6 +19,7 @@ task :fix_posts do
 end
 
 task :push do
+  puts "Pushing site to server"
   sh 'rsync -rp _site/* peregoy@lawrenceyoga.com:/home/peregoy/lawrenceyoga.com'
   sh 'rsync -p _site/.htaccess peregoy@lawrenceyoga.com:/home/peregoy/lawrenceyoga.com'
 end
