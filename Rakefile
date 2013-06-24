@@ -15,13 +15,6 @@ task :fix_posts do
     new_file = old_file.sub(/html$/, 'shtml' )
     File.rename(old_file, new_file)
   end
-  
-  ## Need to change all the posts from index.html to index.shtml
-  #fix_posts:
-  #	for fn in `find _site/jekyll -name index.html -print` 
-  #	do 
-  #	  echo "Got: $fn" 
-  #	done
 end
 
 task :push do
