@@ -17,8 +17,12 @@ classes = ruby_obj['classes']
 daily_classes = classes[day_str]
 puts "Content-type: text/html\n\n"
 
-daily_classes.each do |cl|
-  puts "#{cl['time']}<br/>"
+if daily_classes
+  daily_classes.each do |cl|
+    puts "#{cl['time']}<br/>"
+  end
+else
+  puts "No classes today<br/>"
 end
 
 

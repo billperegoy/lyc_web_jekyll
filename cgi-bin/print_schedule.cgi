@@ -4,9 +4,11 @@ require 'time'
 require "yaml"
 
 def print_single_day_classes(classes, day)
-  classes[day].each do |cl|
-    # puts "#{day} #{cl['time']}   #{cl['type']}  #{cl['teacher']}  #{cl['duration']}"
-    puts "<tr class=\"#{day}\"><td>#{day.capitalize}</td><td>#{cl['time']}</td><td>#{cl['type']}</td><td>#{cl['teacher']}</td><td>#{cl['duration']} min</td></tr>"
+  if classes[day]
+    classes[day].each do |cl|
+      # puts "#{day} #{cl['time']}   #{cl['type']}  #{cl['teacher']}  #{cl['duration']}"
+      puts "<tr class=\"#{day}\"><td>#{day.capitalize}</td><td>#{cl['time']}</td><td>#{cl['type']}</td><td>#{cl['teacher']}</td><td>#{cl['duration']} min</td></tr>"
+    end
   end
 end
 

@@ -5,11 +5,6 @@ classes:
         type: Forrest Yoga
         teacher: Bill Peregoy
         duration: 90
-    - 
-        time: 4:00 pm
-        type: Forrest Yoga
-        teacher: Bill Peregoy
-        duration: 120
 
   monday:
     - 
@@ -25,12 +20,7 @@ classes:
 
   tuesday:
     - 
-        time: 5:30 pm
-        type: Forrest Yoga
-        teacher: Bill Peregoy
-        duration: 90
-    - 
-        time: 7:15 pm
+        time: 6:00 pm
         type: Forrest Yoga
         teacher: Bill Peregoy
         duration: 90
@@ -49,31 +39,17 @@ classes:
 
   thursday:
     - 
-        time: 5:30 pm
-        type: Forrest Yoga
-        teacher: Bill Peregoy
-        duration: 90
-    - 
-        time: 7:15 pm
-        type: Forrest Yoga
-        teacher: Bill Peregoy
-        duration: 90
-
-  friday:
-    - 
-        time: 6:00 am
-        type: Forrest Yoga
-        teacher: Bill Peregoy
-        duration: 90
-    - 
         time: 6:00 pm
         type: Forrest Yoga
         teacher: Bill Peregoy
         duration: 90
 
+  friday:
+
   saturday:
-    - 
-        time: 9:00 am
-        type: Forrest Yoga
-        teacher: Bill Peregoy
-        duration: 90
+
+exceptions:
+  - 2013.07.04
+    status: closed
+  - 2013.07.05
+    status: closed
